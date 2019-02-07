@@ -1,0 +1,14 @@
+{
+	"name": "circleci",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"unitTest": "mocha unit_test.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"mocha": "^5.2.0"
+	}
+}
