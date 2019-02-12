@@ -1,12 +1,5 @@
 const assert = require("assert");
-
-const add = function(a, b) {
-  return a + b;
-};
-
-const sub = function(a, b) {
-  return a - b;
-};
+const { add, sub } = require("../app.js");
 
 describe("add", () => {
   it("pass test", () => {
