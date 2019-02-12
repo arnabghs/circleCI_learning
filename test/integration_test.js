@@ -9,7 +9,7 @@ describe("add", () => {
   });
   it("pass test", () => {
     let actualOutput = add(5, 5);
-    let expectedOutput = 100;
+    let expectedOutput = 10;
     assert.deepEqual(actualOutput, expectedOutput);
   });
 });
