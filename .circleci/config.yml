@@ -16,7 +16,7 @@ jobs:
             - ./node_modules
       - run:
           name: run-tests
-          command: npm test
+          command: npm run unit
       - store_artifacts:
           path: coverage
           prefix: coverage
@@ -29,7 +29,7 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
           name: install-npm-packages
-          command: npm install
+          command: npm run integration
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
