@@ -7,9 +7,9 @@ describe("add", () => {
     let expectedOutput = 6;
     assert.deepEqual(actualOutput, expectedOutput);
   });
-  it("pass test", () => {
+  it("fail test", () => {
     let actualOutput = add(5, 5);
-    let expectedOutput = 10;
+    let expectedOutput = 20;
     assert.deepEqual(actualOutput, expectedOutput);
   });
 });
