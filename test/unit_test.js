@@ -8,7 +8,6 @@ const sub = function (a, b) {
 	return a - b;
 }
 
-
 describe('add', () => {
 	it(' return sum', () => {
 		let actualOutput = add(3, 3);
