@@ -14,9 +14,9 @@ describe("add", () => {
     let expectedOutput = 6;
     assert.deepEqual(actualOutput, expectedOutput);
   });
-  it("fail test", () => {
+  it("pass test", () => {
     let actualOutput = add(3, 3);
-    let expectedOutput = 5;
+    let expectedOutput = 6;
     assert.deepEqual(actualOutput, expectedOutput);
   });
 });
