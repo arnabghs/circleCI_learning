@@ -45,5 +45,7 @@ workflows:
   version: 2
   unit_and_integration:
     jobs:
-    - unit
-    - integration
+      - unit
+      - integration:
+          requires:
+            - unit
